@@ -65,3 +65,24 @@ Other tags include: <br>
 
 Woah, that was a lot of info! 
 Lets get to coding now and get some work done in setting up in our structure for our personal info page! 
+
+When you open any editor, im using VS code here, an html file is saved with .html and "index.html" is the default name servers look for while opening the site.
+For VS Code, you can press `!` and you will see something like this appear in your file:
+![image 1](images/image1.png)
+
+You can change the title to your liking, im keeping "infor" T^T
+
+**tip**: If you're using VS CODE, I really recommend downloading an extension called "Live server" by Ritwick Dey, so you can see the work you're doing locally and change accordingly. <br>
+After changing the title, you should be able to see this:
+![image 2](images/image2.png)
+
+Now, you can start entering some details about yourself, it can be just random stuff, you can always update it later! <br>
+I've added this, a small intro:
+![image 3](images/image3.png)
+
+You'd see the content like this in your browser:
+![image4](images/image4.png)
+
+There, you have a something on your site now but it doesn't look too well because it is not styled yet, lets add a few tags and see further. <br>
+I'm adding a `<br>` tag at the end of all lines. And it looks much better now! 
+![image5](images/image5.png)
