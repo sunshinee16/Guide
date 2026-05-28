@@ -105,3 +105,4 @@ my page looks like this now!
 ![image6](images/image6.png)
 
 <hr>
+Now to make out personal info panel:
