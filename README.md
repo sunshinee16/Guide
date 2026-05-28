@@ -44,23 +44,24 @@ We use **</>** to create "tags" in html, what are tags you ask?
 Tags are instructions given to a web browser to act a specific way, it could be adding links, creating images etc
 Most tags inside HTML are in pairs i.e. they have a opening **<>** and a closing 'slash' attached to it **</>**, it is added to tell the browser where that element ends. <br>
 Some examples would be;
-<html> ...... </html>
+```<html> ...... </html>
 <body> ...... </body>
 <p> ..... </p>
+```
 
-But all the tags are not built that way, some tags such as <br>, <hr> etc do not have a closing tag because they dont have any content inside them. For example, "br" tag is used to break lines in HTML while writing, it doesnt has any content inside the tag, its only work is to break a line and start fresh from a new line. <br>
+But all the tags are not built that way, some tags such as `<br>, <hr>` etc do not have a closing tag because they dont have any content inside them. For example, `<br>` tag is used to break lines in HTML while writing, it doesnt has any content inside the tag, its only work is to break a line and start fresh from a new line. <br>
 
 Phew! That's a lot of info, but what about how are these tags used? Yess! Let's go over the basic tags slowly :>
-- **<html>....</html>** : It is the root tag of HTML, an html document should always begin with <html> tag and end with </html>
-- **<head>...</head>**: It is used for storing info which isn't directly visible on the webpage, such as <title> tag or linking to css page (we'll get to it!) etc
-- **<title>...</title>**: Title is the text which appears on a browser tab
-- **<body>...</body>**: The main visible content visible on the webpage goes here
+- `<html>....</html>` : It is the root tag of HTML, an html document should always begin with `<html>` tag and end with `</html>`
+- `<head>...</head>`: It is used for storing info which isn't directly visible on the webpage, such as `<title>` tag or linking to css page (we'll get to it!) etc
+- `<title>...</title>`: Title is the text which appears on a browser tab
+- `<body>...</body>`: The main visible content visible on the webpage goes here
 
 Other tags include:
-<img>: For adding images in the webpage
-<a>...</a>: for adding links
-<h1> to <h6> tags: for different sizes of text appearing
-<p>...</p>: for adding paragraphs
+`<img`>`: For adding images in the webpage
+`<a>...</a>`: for adding links
+`<h1> to <h6>` tags: for different sizes of text appearing
+`<p>...</p>`:` for adding paragraphs
 
 Woah, that was a lot of info! 
 Lets get to coding now and get some work done in setting up in our structure for our personal info page! 
