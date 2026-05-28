@@ -87,3 +87,21 @@ You'd see the content like this in your browser:
 There, you have a something on your site now but it doesn't look too well because it is not styled yet, lets add a few tags and see further. <br>
 I'm adding a `<br>` tag at the end of all lines. And it looks much better now! 
 ![image5](images/image5.png)
+
+Feel free to add tags like `<h1>...</h6>`, `<b>`, `<i>` etc to your introduction.
+<hr>
+Now, we'll be adding an image:
+
+The syntax for adding images is: `<img src="...">` and its attributes inside the tag, some of it includes:
+- `src`: src is also one of img tag attributes, it used to add the path of the image
+- `alt`: optional, it helps in describing the image if its unable to load
+- `height`: for defining the height of the image
+- `width`: for defining the width of the image
+
+You can add images, svg and gif from `<img>` tag.
+
+so go ahead and add a image to your code, it could be anything you like :3 <br>
+my page looks like this now!
+![image6](images/image6.png)
+
+<hr>
