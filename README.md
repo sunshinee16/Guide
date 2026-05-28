@@ -73,7 +73,8 @@ For VS Code, you can press `!` and you will see something like this appear in yo
 You can change the title to your liking, im keeping "infor" T^T
 
 **tip**: If you're using VS CODE, I really recommend downloading an extension called "Live server" by Ritwick Dey, so you can see the work you're doing locally and change accordingly. <br>
-After changing the title, you should be able to see this:
+
+After changing the title, you should be able to see this: <br>
 ![image 2](images/image2.png)
 
 Now, you can start entering some details about yourself, it can be just random stuff, you can always update it later! <br>
