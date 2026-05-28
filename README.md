@@ -57,11 +57,11 @@ Phew! That's a lot of info, but what about how are these tags used? Yess! Let's 
 - `<title>...</title>`: Title is the text which appears on a browser tab
 - `<body>...</body>`: The main visible content visible on the webpage goes here
 
-Other tags include:
-`<img`>`: For adding images in the webpage
-`<a>...</a>`: for adding links
-`<h1> to <h6>` tags: for different sizes of text appearing
-`<p>...</p>`:` for adding paragraphs
+Other tags include: <br>
+- `<img`>`: For adding images in the webpage 
+- `<a>...</a>`: for adding links 
+- `<h1> to <h6> tags`: for different sizes of text appearing
+- `<p>...</p>`: for adding paragraphs
 
 Woah, that was a lot of info! 
 Lets get to coding now and get some work done in setting up in our structure for our personal info page! 
