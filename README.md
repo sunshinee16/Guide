@@ -106,3 +106,30 @@ my page looks like this now!
 
 <hr>
 Now to make out personal info panel:
+The first thing we're gonna do is to delete our previous code and start making `<div>`.
+What is `<div>`? It is a box tag which is used to group particular elements so they can be styled together etc.
+
+If you wish to define your page in more structural way, there also exists tags such as `<header>, <main>, <section> etc` which are used to set up different sections of a website.
+
+Since its a beginner leveled guide, we'll only be using <div> tag.
+
+**Tip**: I'd really recommed mapping out how you'd like your sections to be, how many boxes, how they'd be divided roughly on a piece of paper or digitally before making divs. I'm dividing the page in 4 parts as:
+- First: Intro/profile
+- Second: some api (i'd be using cat api :3)
+- Third: some projects you've worked on 
+- Fourth: some music recommends or a fun fact 
+
+You can always decide what data you want to keep yourself and how you want to keep it.
+
+So, also <div> tags come in pairs, so whenever you're opening one, make sure to close it too.
+Now, in <div> tag, for selecting elements, you can use both different attributes, let me go over them quickly.
+
+- "class": it is used when we want to use the same property on multiple elements present inside the tag
+- "id": it is a used when we want to add a unique property to the elements inside the tag
+
+Here's what i have done:
+![image7](images/image7.png)
+
+Add as many <div> elements as you need and make sure to close them. I'd recommend writing the div tags from left to right, in row to row order, since we'll be using grid in css properties. 
+
+Alright we're done with HTML for now, now we'll learn CSS and styling your page. 
