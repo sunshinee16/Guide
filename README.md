@@ -124,8 +124,8 @@ You can always decide what data you want to keep yourself and how you want to ke
 So, also <div> tags come in pairs, so whenever you're opening one, make sure to close it too.
 Now, in <div> tag, for selecting elements, you can use both different attributes, let me go over them quickly.
 
-- "class": it is used when we want to use the same property on multiple elements present inside the tag
-- "id": it is a used when we want to add a unique property to the elements inside the tag
+- "class": it is used when we want to use the same property on multiple elements present inside the tag. To add css properties we use ".xyz{}"
+- "id": it is a used when we want to add a unique property to the elements inside the tag, to add css properties, we use "#xyz{}"
 
 Here's what i have done:
 ![image7](images/image7.png)
@@ -133,3 +133,40 @@ Here's what i have done:
 Add as many <div> elements as you need and make sure to close them. I'd recommend writing the div tags from left to right, in row to row order, since we'll be using grid in css properties. 
 
 Alright we're done with HTML for now, now we'll learn CSS and styling your page. 
+
+
+# CSS
+Wooo! Now let's start with CSS, like before, CSS stands for Cascading Style Sheets and it is used to add different colors, fonts, just styling, so our page looks better. <br>
+
+For adding css to your page, you can use it in different ways, I recommend using the external css version, it helps in keeping our project organized.
+So, begin with, start by adding ` <link rel="stylesheet" href="">` in the `<head>` tag of your html file. <br>
+`rel` and `href` are attributes of `<link>` tag.
+- `rel="stylesheet"` is telling the browser this file contains css.
+- `href` is used for adding the link of the file which contains out css codes. 
+<br>
+So, add your file name with .css at the end of your file name and attach it to the `href=""`.
+<br>
+Let's start by adding background color to our page before I explain the different attributes we'll be using. (these steps are after you've created your css file and inside it)
+
+```body{
+    background-color: rgb(115, 115, 212);
+}
+```
+here background-color is the property we're using for changing the background color of the page, you can choose any color you like. If it doesnt work, please check semicolon, use of correct brackets etc. 
+
+<br>
+I'll go over the most used css properties quickly, if i use anything apart from these, i'll explain it in that section.
+
+- `background-color`: to chage the color of color of the page or an element
+- `color`: is used to change color of texts
+- `font-size`: is used to change the size of text
+- `font-family`: it is used to change different fonts of texts such as comic sans, arial, sans serif etc.
+- `text-align`: used to align text
+- `width`: to set the width of the element used
+- `height`: to set the height of the element used
+- `margin`: to add space outside of an element
+- `padding`: to add space inside of an element
+- `border`: to set the color, type and size of the element's border
+- `border-radius`: to round the corners of a box element
+
+woo! these are most common css properties used, now lets get back to our profile page. right now our text is simply there, lets work on css and add borders and make our layout.
