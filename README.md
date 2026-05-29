@@ -170,3 +170,16 @@ I'll go over the most used css properties quickly, if i use anything apart from 
 - `border-radius`: to round the corners of a box element
 
 woo! these are most common css properties used, now lets get back to our profile page. right now our text is simply there, lets work on css and add borders and make our layout.
+
+Since i've added class in div tag, I'll be using ".xyz{}" to add properties to my elements.
+![image8](images/image8.png)
+<br>
+
+You'd see that there are some of the properties I havent explained, I'll go over them one by one
+- `display:grid`: this turns the element like a table, where you can arrange elements inside it as rows and columns
+- `grid-template-columns`: this is used for creating columns, you can specify how many columns you want and how much of space you want them to take by mentioning it with "fr" it means fraction of space.<br>
+so for example, i used `1fr 2fr` this will create two columns, 1fr will be taking less than the one with 2fr.
+- `grid-template-rows`: it is used for creating rows, just like columns you can specify how many you want and how much fraction of space you'd like them to have.
+
+the rest of the properties are explained in the guide before, if you forget them, feel free to take a look at it :D <br>
+remember you can choose any layout you like, any color, font etc, the css properties are supposed to be your choice, be creative! 

@@ -1,4 +1,40 @@
 body{
-    background-color: rgb(115, 115, 212);
+    background-color: rgb(126, 162, 195);
 }
 
+.panel{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 2fr 1fr;
+  width: 95%;
+  min-height: 90vh;
+  border: 4px black solid;
+}
+
+.left-panel1{
+  border-right: 3px solid black;
+  border-bottom: 3px solid black;
+  padding: 13px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-size: 15px;
+}
+
+.left-panel2{
+  border-right: 3px solid black;
+  padding: 13px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-size: 15px;
+}
+
+.right-panel1{
+  border-bottom: 3px solid black;
+  padding: 13px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-size: 15px;
+}
+
+.right-panel2{
+  padding: 13px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-size: 15px;
+}
